@@ -1,0 +1,67 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	
+}
+ul li{
+	list-style:none;
+}
+.list li{
+	cursor:pointer;
+}
+ .box input:focus{
+	outline:none;
+	
+}
+.grad{
+	background:-webkit-linear-gradient(red, yellow);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image{
+	position:relative;
+}
+.car:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 95px;
+    height: 92px;
+    right: 0;
+    bottom: 0;
+    background: url(images/mb-home.svg);
+       }
+.explore{
+	background-color: #dff6f9!important;
+	border-radius: 8px;
+}
+.sale{
+	position:relative;
+	background-color: #dff6f9!important;
+	border-radius: 8px;
+}
+.img{
+	position:absolute;
+	height:60px;
+	width:60px;
+	border-radius:60px;
+	left:10px;
+	bottom:40px;
+}
+.prop{
+	background-color: #fff8e2;
+}
+.logo{
+	height:40px;
+	width:40px;
+	line-height:40px;
+	border-radius:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+footer{
+	background-color:#ccc;
+}
